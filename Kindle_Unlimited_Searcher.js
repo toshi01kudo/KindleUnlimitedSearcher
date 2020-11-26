@@ -20,5 +20,5 @@
 
     const SchUrl = preUrlStr + SchStr + postUrlStr;
     console.log(SchUrl);
-    $(".nav-right").prepend(`<a herf="${SchUrl}">test</a>`);
+    $(".nav-right").prepend(`<a herf="${SchUrl}">KU_Search</a>`);
 })();
