@@ -12,7 +12,7 @@
     'use strict';
 
     const preUrlStr = "https://www.amazon.co.jp/s?k=";
-    const SchStr = '"' + $("#twotabsearchtextbox").value + '"';
+    const SchStr = $("#twotabsearchtextbox").value;
     const SchStr2 = $(".a-color-state.a-text-bold").textContent;
     const postUrlStr = "&i=digital-text&rh=n%3A2250738051%2Cp_n_feature_nineteen_browse-bin%3A3169286051&dc&__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&qid=1606401522&rnid=3169285051&ref=sr_nr_p_n_feature_nineteen_browse-bin_1";
     console.log(SchStr);
