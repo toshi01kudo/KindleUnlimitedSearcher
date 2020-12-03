@@ -25,6 +25,7 @@
         console.log(SchStr);
         const SchUrl = preUrlStr + SchStr + postUrlStr;
         console.log(SchUrl);
+        window.location.href = SchUrl;
     })
 
     //console.log(SchUrl);
