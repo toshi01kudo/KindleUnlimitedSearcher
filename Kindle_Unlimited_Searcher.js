@@ -16,7 +16,7 @@
     //console.log(SchStr);
     //console.log(SchStr2);
 
-    // クリックすると検索窓に打ち込んだ内容を読み込んで、Kindle Unlimited 対象のもののみ検索する
+    // クリックすると検索窓に打ち込んだ内容を読み込んで、Kindle Unlimited 対象のもののみ検索する（今はコンソールにログ出力のみ）
     $(".nav-right").prepend(`<button id="KU_Sch_Btn" type="button">KU_Search</button>`);
     $("#KU_Sch_Btn").click(function(){
         const preUrlStr = "https://www.amazon.co.jp/s?k=";
