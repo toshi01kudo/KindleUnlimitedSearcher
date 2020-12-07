@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kindle Unlimited Searcher
 // @namespace    Kindle Unlimited Searcher
-// @version      0.2
+// @version      0.3
 // @description  Create a link to search any kindle book selling with Kindle Unlimited.
 // @author       Toshihito Kudo
 // @include      https://www.amazon.co.jp*
