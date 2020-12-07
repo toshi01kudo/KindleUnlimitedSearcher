@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kindle Unlimited Searcher
 // @namespace    Kindle Unlimited Searcher
-// @version      1.0
+// @version      1.1
 // @description  Create a link to search any kindle book selling with Kindle Unlimited.
 // @author       Toshihito Kudo
 // @include      https://www.amazon.co.jp*
@@ -22,7 +22,11 @@
         //const SchStr = $(".a-color-state.a-text-bold").textContent;
         //console.log(SchStr);
         const SchUrl = preUrlStr + SchStr + postUrlStr;
-        console.log(SchUrl);
+        //console.log(SchUrl);
         window.location.href = SchUrl;
     });
+    
+    // 各種リンクを生成
+    // https://www.amazon.co.jp/gp/kindle/ku/ku_central?ref_=nav_AccountFlyout_ku
+    // https://www.amazon.co.jp/hz/mycd/myx?ref_=nav_AccountFlyout_myk
 })();
