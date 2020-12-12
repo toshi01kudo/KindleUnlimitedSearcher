@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Kindle Unlimited Searcher
 // @namespace    Kindle Unlimited Searcher
-// @version      1.4
+// @version      1.5
 // @description  Create a link to search any kindle book selling with Kindle Unlimited.
 // @author       Toshihito Kudo
 // @include      https://www.amazon.co.jp*
@@ -31,13 +31,16 @@
     // https://www.amazon.co.jp/gp/kindle/ku/ku_central?ref_=nav_AccountFlyout_ku
     // https://www.amazon.co.jp/hz/mycd/myx?ref_=nav_AccountFlyout_myk
     // https://read.amazon.co.jp/kp/notebook
-    $("#nav-tools").prepend(`<button id="KU_Central" type="button">KU<br>Central</button>`);
-    $("#KU_Central").after(`<button id="Kdl_MyBooks" type="button">My<br>Books</button>`);
-    $("#Kdl_MyBooks").after(`<button id="Kdl_HighLights" type="button">DogEar</button>`);
+    //$("#nav-tools").prepend(`<button id="KU_Central" type="button">KU<br>Central</button>`);
+    //$("#KU_Central").after(`<button id="Kdl_MyBooks" type="button">My<br>Books</button>`);
+    //$("#Kdl_MyBooks").after(`<button id="Kdl_HighLights" type="button">DogEar</button>`);
+    $("#nav-tools").prepend(`<button id="Kdl_HighLights" type="button">DogEar</button>`);
+    $("#Kdl_HighLights").before(`<ul class="flex-container"><li><button id="KU_Central" type="button">KU Central</button></li><li><button id="Kdl_MyBooks" type="button">My Books</button></li></ul>`);
 
     // ボタンのスタイルを指定
-    $("#KU_Central").css({"background-color":"navy","font-size":"80%","color":"white"});
-    $("#Kdl_MyBooks").css({"background-color":"navy","font-size":"80%","color":"white"});
+    $(".flex-container").css({"display":"flex","flex-direction":"column"});
+    $("#KU_Central").css({"background-color":"navy","font-size":"80%","color":"white","width":"80px","padding":"3px"});
+    $("#Kdl_MyBooks").css({"background-color":"navy","font-size":"80%","color":"white","width":"80px","padding":"3px"});
     $("#Kdl_HighLights").css({"background-color":"white","font-size":"100%","color":"turquoise","font-weight":"bold"});
 
     // ボタンのリンク先を指定
