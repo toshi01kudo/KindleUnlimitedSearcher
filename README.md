@@ -25,7 +25,7 @@ Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使�
   * Firefoxなら [Grease Monkey](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/)
   * Chrome or Vivaldiなら [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)
   * ※他のブラウザでの動作検証はしていません。
-2. Github 上ののプログラムファイルページ [Kindle_Unlimited_Searcher.user.js](Kindle_Unlimited_Searcher.user.js) にて、上段右の 「Raw」と書かれたボタンを押下。
+2. Github 上ののプログラムファイルページ [Kindle_Unlimited_Searcher.user.js](Kindle_Unlimited_Searcher.user.js) にて、上段右の 「Raw」と書かれたボタンを押下。\
 ![ClickRawButton](ClickRaw.png)
 3. アドオンのページで「インストール」をクリックすることで導入完了。
 
