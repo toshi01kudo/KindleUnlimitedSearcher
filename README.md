@@ -20,7 +20,7 @@ Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使�
 * 購入本も含めた Kindle 本一覧ページへ飛ぶボタン（コンテンツと端末の管理）
 * Kindle 本内でメモやハイライトを付けた項目一覧ページへ飛ぶボタン（メモとハイライト）
 
-## 適用方法
+## 導入方法
 1. ブラウザのアドオンをインストールしてください。
   * Firefoxなら [Grease Monkey](https://addons.mozilla.org/ja/firefox/addon/greasemonkey/)
   * Chrome or Vivaldiなら [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)
