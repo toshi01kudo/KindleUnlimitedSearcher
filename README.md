@@ -1,10 +1,12 @@
 # KindleUnlimitedSearcher
 
-Kindle Unlimited をもっと使いやすくするツールです。
+Kindle Unlimited をもっと使いやすくするツールです。\
+Kindle Unlimited 読み放題対象の本のみを検索したい想いから作りました。
 
 ![ScreenShot](KU_Scher.PNG)
 
-Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使いにくいと感じるので、ワンタッチで便利に使えるツールを作りました。
+Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使いにくいと感じるので、ワンタッチで便利に使えるツールを作りました。\
+メモとハイライトのページは、知る人ぞ知る機能だと思うので、是非活用してください。
 
 ## 前提条件
 * ブラウザのアドオンにて動作します。
@@ -20,14 +22,14 @@ Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使�
 
 ## 使い方
 
-### KU_Sch
+### KU_Sch (Kindle Unlimited 検索ボタン)
 検索ボックスに文字列を入力し、このボタンをクリックすると、Kindle Unlimited 読み放題対象の本が検索されます。
 
-### KU Central
+### KU Central (Kindle Unlimited セントラルへのリンク)
 このボタンを押すと、Kindle Unlimited にてレンタル中の本一覧ページ（Kindle Unlimited セントラル）へ飛びます。
 
-### My Books
+### My Books (コンテンツと端末の管理へのリンク)
 このボタンを押すと、購入本も含めた Kindle 本一覧ページ（コンテンツと端末の管理）へ飛びます。
 
-### DogEar
+### DogEar (メモとハイライトへのリンク)
 このボタンを押すと、Kindle 本内でメモやハイライトを付けた項目一覧ページ（メモとハイライト）へ飛びます。
