@@ -26,7 +26,7 @@ Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使�
   * Chrome or Vivaldiなら [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=ja)
   * ※他のブラウザでの動作検証はしていません。
 2. Github 上ののプログラムファイルページ上段右の [Kindle_Unlimited_Searcher.user.js](Kindle_Unlimited_Searcher.user.js) にて 「Raw」と書かれたファイルを押下。
-[ClickRawButton](ClickRaw.png)
+![ClickRawButton](ClickRaw.png)
 3. アドオンのページで「インストール」をクリックすることで導入完了。
 
 
