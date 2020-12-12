@@ -3,7 +3,7 @@
 Kindle Unlimited をもっと使いやすくするツールです。\
 Kindle Unlimited 読み放題対象の本のみを検索したい想いから作りました。
 
-![ScreenShot](KU_Scher.PNG)
+![ScreenShot](KU_Scher_v2.PNG)
 
 Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使いにくいと感じるので、ワンタッチで便利に使えるツールを作りました。\
 メモとハイライトのページは、知る人ぞ知る機能だと思うので、是非活用してください。
