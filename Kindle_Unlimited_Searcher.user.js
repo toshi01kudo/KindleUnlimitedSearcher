@@ -35,7 +35,7 @@
     //$("#KU_Central").after(`<button id="Kdl_MyBooks" type="button">My<br>Books</button>`);
     //$("#Kdl_MyBooks").after(`<button id="Kdl_HighLights" type="button">DogEar</button>`);
     $("#nav-tools").prepend(`<button id="Kdl_HighLights" type="button">DogEar</button>`);
-    $("#Kdl_HighLights").before(`<ul class="flex-container"><li><button id="KU_Central" onclick="newtab()" type="button">KU Central</button></li><li><button id="Kdl_MyBooks" type="button">My Books</button></li></ul>`);
+    $("#Kdl_HighLights").before(`<ul class="flex-container"><li><button id="KU_Central" type="button">KU Central</button></li><li><button id="Kdl_MyBooks" type="button">My Books</button></li></ul>`);
 
     // ボタンのスタイルを指定
     $(".flex-container").css({"display":"flex","flex-direction":"column"});
