@@ -33,7 +33,7 @@ Kindle Unlimited 関連はリンクや検索方法が分かりにくい or 使�
 ## 使い方
 Amazonのページを認識して自動でボタンが生成されます。
 
-### KU_Sch (Kindle Unlimited 検索ボタン)
+### KU Sch (Kindle Unlimited 検索ボタン)
 検索ボックスに文字列を入力し、このボタンをクリックすると、Kindle Unlimited 読み放題対象の本が検索されます。
 
 ### KU Central (Kindle Unlimited セントラルへのリンク)
