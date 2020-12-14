@@ -45,17 +45,23 @@
 
     // ボタンのリンク先を指定（新しいタブで開く）
     $("#KU_Central").click(function(){
+        //同じタブで開く
         //window.location.href = 'https://www.amazon.co.jp/gp/kindle/ku/ku_central?ref_=nav_AccountFlyout_ku';
+        //新しいタブで開く
         const url = 'https://www.amazon.co.jp/gp/kindle/ku/ku_central?ref_=nav_AccountFlyout_ku';
         window.open(url, '_blank');
     });
     $("#Kdl_MyBooks").click(function(){
+        //同じタブで開く
         //window.location.href = 'https://www.amazon.co.jp/hz/mycd/myx?ref_=nav_AccountFlyout_myk';
+        //新しいタブで開く
         const url = 'https://www.amazon.co.jp/hz/mycd/myx?ref_=nav_AccountFlyout_myk';
         window.open(url, '_blank');
     });
     $("#Kdl_HighLights").click(function(){
+        //同じタブで開く
         //window.location.href = 'https://read.amazon.co.jp/kp/notebook';
+        //新しいタブで開く
         const url = 'https://read.amazon.co.jp/kp/notebook';
         window.open(url, '_blank');
     });
